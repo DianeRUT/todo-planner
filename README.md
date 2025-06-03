@@ -21,7 +21,7 @@ Plan your life with daily, weekly, monthly, and yearly tasks!
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/todo-planner.git
+git clone https://github.com/DianeRUT/todo-planner.git
 cd todo-planner
 ```
 
@@ -36,6 +36,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### 4. Build for production
