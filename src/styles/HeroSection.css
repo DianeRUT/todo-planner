@@ -1,0 +1,85 @@
+.hero-section {
+  background: #232a26;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 2rem 2rem 0 0;
+  color: #e6e6e6;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 420px;
+}
+
+.task-form {
+  flex: 0 0 340px;
+  max-width: 100%;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  color: #e6e6e6;
+}
+
+.hero-section .highlight {
+  color: #a3baff;
+}
+
+.hero-section .subtitle {
+  font-size: 1rem;
+  color: #b0b0b0;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.hero-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+.hero-row .subtitle {
+  flex: 1;
+  margin: 0;
+}
+
+.hero-row .task-form {
+  flex: 0 0 340px;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .task-form {
+    width: 100%;
+    flex: unset;
+  }
+  .hero-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .hero-row .task-form {
+    width: 100%;
+    flex: unset;
+  }
+} 
