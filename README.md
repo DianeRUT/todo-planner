@@ -46,6 +46,8 @@ npm run build
 npm run preview
 ```
 
+Deployed version: open: https://todo-planner-ten.vercel.app/
+
 ## 📁 Project Structure
 
 ```
